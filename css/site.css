@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'titre4';
+    src: url('fonts/BonvenoCF-Light-webfont.eot');
+    src: url('fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/BonvenoCF-Light-webfont.woff') format('woff'), url('fonts/BonvenoCF-Light-webfont.ttf') format('truetype'), url('fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titre3';
+    src: url('fonts/AlexBrush-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titre';
+    src: url('fonts/LearningCurve_OT-webfont.eot');
+    src: url('fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LearningCurve_OT-webfont.woff') format('woff'), url('fonts/LearningCurve_OT-webfont.ttf') format('truetype'), url('fonts/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texte';
+    src: url('fonts/Aaargh-webfont.eot');
+    src: url('fonts/Aaargh-webfont.eot?#iefix') format('fonts/embedded-opentype'), url('fonts/Aaargh-webfont.woff') format('woff'), url('fonts/Aaargh-webfont.ttf') format('truetype'), url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titre2';
+    src: url('fonts/Aaargh-webfont.eot');
+    src: url('fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Aaargh-webfont.woff') format('woff'), url('fonts/Aaargh-webfont.ttf') format('truetype'), url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'windsongregular';
+    src: url('fonts/Windsong-webfont.eot');
+    src: url('fonts/Windsong-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Windsong-webfont.woff') format('woff'), url('fonts/Windsong-webfont.ttf') format('truetype'), url('fonts/Windsong-webfont.svg#windsongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.parent {
+    display: flex;
+    height: 100vh;
+    background-image: url(DSC_0241.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: #5c5c5c;
+    font-family: 'titre4', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    padding: .5em;
+    background-color: rgba(255, 255, 255, 0.81);
+    margin: 3em 6em 6em 10em;
+    border-top: 8em;
+    border-radius: .1em;
+}
+
+h2 {
+    font-family: 'texte';
+    font-size: 1.2em;
+    color: #c14949;
+}
+
+.space33 h2 {
+    font-size: 2em;
+    padding: 25px;
+}
+
+.space333 h2 {
+    font-size: 2em;
+    padding: 25px;
+}
+
+.tailletitre {
+    font-size: .4em;
+}
+
+.body {
+    background-color: #260C1A;
+    min-height: 100vh;
+}
+
+.menu2 {
+    font-family: 'texte', sans-serif;
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+}
+
+.menu2 li a {
+    color: #260C1A;
+    padding: .8em;
+    margin: 0em .3em;
+    transition: margin .3s;
+}
+
+.menu2 li a:hover {
+    margin: 0em .6em;
+    color: #601848;
+}
+
+.presentation {
+    font-family: 'titre2';
+    font-size: 1.6em;
+    color: #601848;
+    text-align: center;
+    padding-top: 60px;
+    height: 105vh;
+}
+
+.textecentre {
+    text-align: center;
+}
+
+.textejustifie {
+    text-align: justify;
+    font-family: 'titre2';
+}
+
+.space {
+    font-size: 20px;
+    background-color: rgba(152, 36, 58, 0.1);
+    border-radius: .4em;
+    padding: .5em 1em 1em 1em;
+    text-align: justify;
+    height: 105vh;
+    padding-top: 60px;
+}
+
+.space2 {
+    font-size: 20px;
+    background-color: rgba(236, 230, 240, 0.46);
+    border-radius: .4em;
+    padding: .5em 1em 1em 1em;
+    text-align: justify;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.space3 {
+    background-image: url(aigle.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20px;
+    border-radius: .4em;
+    padding: .5em 1em 1em 1em;
+    text-align: justify;
+    padding-top: 60px;
+}
+.space4 {
+    font-size: 20px;
+    background-color: rgba(152, 36, 58, 0.1);
+    border-radius: .4em;
+    padding: .5em 1em 1em 1em;
+    text-align: justify;
+    padding-top: 60px;
+}
+
+.space4 div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texte {
+    font-family: 'texte' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(199, 16, 16, 0.44);
+    border-radius: .2em;
+    margin: 1em;
+    padding: .5em;
+    font-size: 1.1em
+}
+
+.space5 {
+    font-size: 20px;
+    background-color: rgba(236, 230, 240, 0.46);
+    border-radius: .4em;
+    padding: .5em 1em 1em 1em;
+    text-align: justify;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.carre {
+    background-color: rgb(38, 12, 26);
+    color: white;
+    top: 1em;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    height: 19.5em;
+    border-color: white;
+    height: 22em;
+    border-radius: .5em;
+    padding: .5em 1em .5em 1em;
+}
+
+.carre2 {
+    background-color: #260C1A;
+    color: white;
+    top: 1em;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    border-color: white;
+    height: 22em;
+    border-radius: .5em;
+    padding: .5em 1em .5em 1em;
+}
+
+.carre3 {
+    background-color: #260C1A;
+    color: white;
+    top: 1em;
+    bottom: 1em;
+    left: 1em;
+    right: 2em;
+    height: 22em;
+    border-color: white;
+    border-radius: .5em;
+    padding: .5em 1em .5em 1em;
+}
+
+.fond2 {
+    background-image: url(10321633_10204005410568988_4935854477958451045_o.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.travail {
+    font-family: 'titre4';
+    font-size: 3em;
+}
+
+.italique {
+    font-style: oblique;
+    color: #ba6381;
+}
+
+.phrase {
+    margin: 0em 2em 0em 2.2em;
+}
+
+.image-galerie {
+    /*width: 100%;*/
+}
+
+.image-galerie img {
+    width: 100%;
+    margin: 10px;
+}
+
+.links .gallery {
+    height: 3em;
+}
+
+.accueil {
+    font-family: 'titre', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #80756d;
+    text-decoration: none;
+}
+
+.image {
+    padding: 1em;
+}
+
+.image img {
+    width: 100%;
+}
+
+.contact .email {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: 'texte' sans-serif;
+}
+
+.blocblanc {
+    background-color: rgba(38, 12, 26, 0.76);
+    opacity: 0;
+    transition: opacity .3s;
+    position: absolute;
+    top: .8em;
+    bottom: .3em;
+    left: 1em;
+    right: 1em;
+    display: flex;
+    text-align: center;
+}
+
+.blocblanc {
+    padding: 1em;
+}
+
+.blocblanc:hover {
+    opacity: 1;
+    color: white;
+    font-family: 'texte' sans-serif;
+}
+
+.blocblanc2 {
+    background-color: rgba(18, 18, 18, 0.75);
+    opacity: 0;
+    transition: opacity .3s;
+    position: absolute;
+    top: 1em;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    text-align: center;
+    display: flex;
+}
+
+.blocblanc2 p {
+    margin: auto;
+}
+
+.blocblanc2:hover {
+    opacity: 1;
+    color: white;
+    font-family: 'texte';
+}
+
+a img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6E052E;
+}
+
+.contact {
+    font-family: 'titre4', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+.background {
+    background-color: #5E001E;
+}

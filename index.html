@@ -1,179 +1,450 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="vendor/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="vendor/photoswipe/default-skin/default-skin.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/site.css" />
+<title> Sibylle Katona</title>
 
-  <title>Galerie avec effet de survol CSS3</title>
+<body data-spy="scroll" data-target="#navbar-example">
+    <nav class="navbar navbar-default navbar-fixed-top menu2">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" id="navbar-example">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SK</a>
+            </div>
 
-  <link rel="stylesheet" media="screen" href="css/style.css" />
-  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-	<!-- Inclure jQuery -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-  	<!-- Inclure le script pour la molette pour la galerie si vous souhaitez l'utiliser -->
-  <script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
-  	<!-- Inclure le script de la fancybox -->
-  <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 navbar-example">
+                <ul class="nav navbar-nav nav-tabs" role="tablist">
+                    <li><a href="#presentation">Présentation<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#work">Métro, Boulot, Dodo</a></li>
+                    <li><a href="#passion">Passions &amp; Activités</a></li>
+                    <li><a href="#projet">Mon projet</a></li>
+                    <li><a href="#idea">Pourquoi IDEA?</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			*   Examples - images
-			*/
+    <div class="parent">
+        <h1 class="title"> SIBYLLE KATONA <span class="tailletitre"></br> -</br>Etudiante en Gestion</br>(et futur entrepreneur) </h1></span>
+    </div>
+    <div class="container" id="presentation">
+        <div class="row presentation">
+            <div class="row">
+                <div class="col-xs-12 col-md-4"><img src="symbols.png" />
+                    <p class="blocblanc">Je m'appelle Sibylle Katona et je suis ravie de faire votre connaissance!</p>
+                </div>
+                <div class="col-xs-12 col-md-4"><img src="screen.png" />
+                    <p class="blocblanc">Passionnée de nouvelles technologies et très curieuse je me suis lancée dans la construction de mon premier site pour ma candidature à IDEA.</p>
+                </div>
+                <div class="col-xs-12 col-md-4"><img src="travel.png" />
+                    <p class="blocblanc">N'hésitez pas à naviguer dans tous les onglets pour mieux comprendre mon parcours et mes motivations!</p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" width="450" height="260" src="https://www.youtube.com/embed/1b-ZzFKOHgY?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space" id="work">
+        <h1 class="travail"> Métro, Boulot, Dodo</h1>
+        <div class="row">
+            <div class="col-xs-12 col-md-3 carre">
+                <h2 class="textecentre">Baccalauréat / </br>Lycée Blanche de Castille / </br>2013</h2> </br>
+                <p>
+                    <ul>
+                        <li class="textejustifie">2013 : Obtention d'un Baccalauréat Scientifique - Mention Bien.</li>
+                </p>
+                <p>
+                    <li class="textejustifie">Voyages scolaires qui ont motivé mon envie de me diriger vers ma formation post-bac: un BTS en Commerce International pour, plus tard, travailler dans un contexte global.
+                    </li>
+                </p>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-1"></div>
+            <div class="col-xs-12 col-md-3 carre2">
+                <h2 class="textecentre">BTS en Commerce International / <br>Aurlom Paris / </br>2012 à 2015</h2> </br>
+                <p>
+                    <ul>
+                        <li class="textejustifie"> Stage de 3 mois au Mexique au sein des services marketing et logistique d’une multinationale Française d’agroalimentaire. </li>
+                </p>
+                <p>
+                    <li class="textejustifie"> Missions du stage: Prospection du marché latino-américain et canadien, études de marché, préparation d’un salon professionnel, édition de document douaniers. </div>
+            </li>
+            </p>
+            </ul>
+            <div class="col-xs-12 col-md-1"></div>
+            <div class="col-xs-12 col-md-3 carre3">
+                <h2 class="textecentre"> Licence de Sciences de gestion en Apprentissage / Dauphine Paris / </br> 2015 à 2016 </h2> </br>
+                <p>
+                    <ul>
+                        <li class="textejustifie"> Apprentissage au sein de SFR Business en tant qu'assistante chef de marché - pôle Terminaux. </li>
+                </p>
+                <p>
+                    <li class="textejustifie"> Missions: Mise en place d'opérations de trade marketing, de benchmarking, mise à disposition d'informations et de kits de vente pour les distributeurs, les commerciaux et les grossistes et projets d'automatisation de fichiers
+                </p>
+                </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-1"></div>
+        </div>
+        </br>
+        <p class="textejustifie phrase"> Ces expériences furent enrichissantes et ont renforcé mon autonomie, ma rigueur, ma maitrise des langues, mon ouverture sur le monde et mon envie de continuer à développer mes compétences, notamment dans le domaine des nouvelles technologies et de l’entrepreneuriat.</p>
+        <div class="container-fluid">
+            <div class="row">
 
-			$("a#example1").fancybox();
+                <div class="col-md-3 col-xs-12 image"><img src="canada2.jpg" class="canada" />
+                    <div class="blocblanc2">
+                        <p>Canada (Toronto) </br> - </br> 3 semaines</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 image"><img src="londres.jpg" class="londres" />
+                    <div class="blocblanc2">
+                        <p>Angleterre (Londres) </br> - </br> 1 semaine</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 image"><img src="montesenario-mugello.jpg" class="florence" />
+                    <div class="blocblanc2">
+                        <p>Italie (Florence) </br> - </br> 3 x 1 semaine</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 image"><img src="madrid-vue-a%C3%A9rienne-metropolis.jpg" class="madrid" />
+                    <div class="blocblanc2">
+                        <p>Espagne (Madrid) </br> - </br> 1 semaine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space3" id="passion">
+        <h1 class="travail"> Passions &amp; Activités </h1>
+        <div class="space33">
+            <h2>La Photographie</h2>
 
-		});
-	</script>
+            <div class="gallerie">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12">
+                            <div class="image-galerie">
+                                <img src="gallerie/art1small.jpg" data-index="0" />
+                                <img src="gallerie/art9small.jpg" data-index="8" />
+                                <img src="gallerie/art4small.jpg" data-index="3" />
+                                <img src="gallerie/art11small.jpg" data-index="10" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <div class="image-galerie">
+                                <img src="gallerie/art2small.jpg" data-index="1" />
+                                <img src="gallerie/art8small.jpg" data-index="7" />
 
-</head>
-<body>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <div class="image-galerie">
+                                <img src="gallerie/art3small.jpg" data-index="2" />
+                                <img src="gallerie/art10small.jpg" data-index="9" />
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <div class="image-galerie">
+                                <img src="gallerie/art6small.jpg" data-index="5" />
+                                <img src="gallerie/art5small.jpg" data-index="4" />
+                                <img src="gallerie/art7small.jpg" data-index="6" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space333">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <h2>La Danse</h2>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h2>Le Scoutisme</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space4" id="projet">
+            <h1 class="travail"> Mon Projet </h1>
+            </a>
+            </br>
+            <div class="container-fluid">
+                <div class="row 1">
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/people%20(2).png"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/arrows.png"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/cup.png"></div>
+                </div>
+                <div class="row 2">
+                    <div class="col-xs-12 col-md-4">
+                        <p class="texte">Au fur et à mesure des connaissances et des expériences accumulées, mes envies se dessinent clairement : je souhaite créer et développer des projets en partant de 0.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <p class="texte">Je concrétise peu à peu cette envie dans des missions du quotidien au sein de SFR Business et même en ce moment en apprenant à coder!</p>
+                    </div>
+                </div>
+                <div class="row 3">
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/hybride2.png"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/icon.png"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/hybride.png"></div>
+                </div>
+                <div class="row 4">
+                    <div class="col-xs-12 col-md-4">
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <p class="texte">Mon expérience dans le scoutisme ou la photographie ont aussi été des déclencheurs qui ont révélés mon goût et ma passion pour la création et le management de projets.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4"></div>
+                </div>
+                <div class="row 5">
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/drawing.png"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/arrows.png"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/people%20(3).png"></div>
+                </div>
+                <div class="row 6">
+                    <div class="col-xs-12 col-md-4">
+                        <p class="texte">Pour ce qui est de mes projets je souhaite, à terme, monter ma propre start-up. Je suis notamment intéressée par les nouvelles technologies mais j'ai aussi plusieurs idées en têtes auxquelles je souhaiterais donner naissance. L'une est le développement d'une plateforme universitaire dont j'espère avoir l'opportunité de vous parler dans un avenir proche!</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4"></div>
+                    <div class="col-xs-12 col-md-4">
+                        <p class="texte">Pour mener à bien ce projet je cherche à mobiliser les bonnes compétences en matière de management et de créativité mais aussi à apprendre toutes les facettes de l'entrepreunariat.</p>
+                    </div>
+                </div>
+                <div class="row 7">
+                    <div class="col-xs-12 col-md-4">
+                        <img src="projet/graduation.png" /></div>
+                    <div class="col-xs-12 col-md-8">
+                        <img src="programme_idea_logo_.png" /></div>
+                </div>
+                <div class="row 8">
+                    <div class="col-xs-12 col-md-12">
+                        <p class="texte">Une formation alliant, comme IDEA, la pratique à la théorie me semble alors indispensable car elle me permettrait de coupler la technicité pour faire grandir mes connaissances, mais aussi les travaux de groupes qui me permettraient de faire des rencontres interculturelles pouvant faire avancer mon projet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space5" id="idea">
+            <h1 class="travail"> Pourquoi IDEA? </h1>
+            </br>
+            <p class="textejustifie"> Voici un résumé de ce que votre programme pourrait m'apporter dans le cadre de la réalisation de mes projets professionnels!</p>
+            <div class="row">
+                <div class="col-xs-12 col-md-2"></div>
+                <div class="col-xs-12 col-md-8">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="450" height="260" src="https://www.youtube.com/embed/oRXfjc3mFCw?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-2"></div>
+            </div>
+        </div>
+        <div class="background">
+            <div class="container fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <p class="contact">Contactez-moi!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <p class="email"><a href="mailto:sibylle.katona@orange.fr">Par email</a></p>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <a href="https://fr.linkedin.com/pub/sibylle-katona/89/496/522">
+                            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_profile_bluetxt_80x15_fr_FR.png?locale=" width="150" height="30" border="0" alt="Voir le profil de Sibylle katona sur LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
 
 
-<!-- #conteneur-header a une width de 100%  -->
-<div id="conteneur_header">
-	<div id="header">
-    
-        <div id="logo"><img src="img/logo.png" /></div><!-- #logo -->
-        
-        <ul id="menu">
-        
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Collection</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Contact</a></li>
-        
-        </ul>
-    
-    </div><!-- #header -->
-</div><!-- #conteneur_header -->
 
-<div id="content">
-<div id="works">
-    
-        <a id="example1" href="img/work-1.jpg"><div class="work">
-            
-            <img src="img/work-1.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Photographie<br />Paris</span>
-            
-        </div><!-- .work -->
-        </a>
-        
-        <a id="example1" href="img/work-2.jpg"><div class="work">
-            
-            <img src="img/work-2.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Site<br />Claire La porta</span>
-            
-        </div><!-- .work -->
-      	</a>
-        
-        <a id="example1" href="img/work-3.jpg"><div class="work" style="margin-right:0px">
-            
-            <img src="img/work-3.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Site<br />NL conseil</span>
-            
-        </div><!-- .work -->
-        </a>
-        
-        <a id="example1" href="img/work-4.jpg"><div class="work">
-            
-            <img src="img/work-4.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Menu CSS3<br />Site Tamento</span>
-            
-        </div><!-- .work -->
-        </a>
-        
-        <a id="example1" href="img/work-5.jpg"><div class="work">
-            
-            <img src="img/work-5.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Pagination<br />Template</span>
-            
-        </div><!-- .work -->
-      	</a>
-        
-        <a id="example1" href="img/work-6.jpg"><div class="work" style="margin-right:0px">
-            
-            <img src="img/work-6.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Menu bar<br />l'escale</span>
-            
-        </div><!-- .work -->
-        </a>
-        
-        <a id="example1" href="img/work-7.jpg"><div class="work">
-            
-            <img src="img/work-7.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Template<br />Nike</span>
-            
-        </div><!-- .work -->
-        </a>
-        
-        <a id="example1" href="img/work-8.jpg"><div class="work">
-            
-            <img src="img/work-8.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Rendu 3D<br />Krakoul</span>
-            
-        </div><!-- .work -->
-      	</a>
-        
-        <a id="example1" href="img/work-9.jpg"><div class="work" style="margin-right:0px">
-            
-            <img src="img/work-9.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Formulaire<br />Equilibre</span>
-            
-        </div><!-- .work -->
-        </a>
-        
-        <a id="example1" href="img/work-10.jpg"><div class="work">
-            
-            <img src="img/work-10.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Accès<br />Equilibre</span>
-            
-        </div><!-- .work -->
-        </a>
-        
-        <a id="example1" href="img/work-11.jpg"><div class="work">
-            
-            <img src="img/work-11.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Sketch<br />Ipad</span>
-            
-        </div><!-- .work -->
-      	</a>
-        
-        <a id="example1" href="img/work-12.jpg"><div class="work" style="margin-right:0px">
-            
-            <img src="img/work-12.jpg" />
-            <div class="triangle-gauche"></div><!-- .triangle-gauche -->
-            <div class="triangle-droite"></div><!-- .triangle-droite -->
-            <span>Réseaux sociaux<br />Template</span>
-            
-        </div><!-- .work -->
-        </a>
-    
-  </div><!-- #works -->
-    
-</div><!-- #content -->
+            <!-- Photoswipe js -->
+            <script src="vendor/photoswipe/photoswipe.min.js"></script>
+            <script src="vendor/photoswipe/photoswipe-ui-default.min.js"></script>
+            <!-- Root element of PhotoSwipe. Must have class pswp. -->
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+                <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+                <div class="pswp__bg"></div>
+
+                <!-- Slides wrapper with overflow:hidden. -->
+                <div class="pswp__scroll-wrap">
+
+                    <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+
+                    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                    <div class="pswp__ui pswp__ui--hidden">
+
+                        <div class="pswp__top-bar">
+
+                            <!--  Controls are self-explanatory. Order can be changed. -->
+
+                            <div class="pswp__counter"></div>
+
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                            <!-- element will get class pswp__preloader--active when preloader is running -->
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                    <div class="pswp__preloader__cut">
+                                        <div class="pswp__preloader__donut"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div>
+                        </div>
+
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                        </button>
+
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                        </button>
+
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <script>
+                var pswpElement = document.querySelectorAll('.pswp')[0];
+
+                // build items array
+                var items = [
+                    {
+                        src: 'gallerie/art1.jpg',
+                        msrc: 'gallerie/art1small.jpg',
+                        w: 1920,
+                        h: 1275
+            },
+                    {
+                        src: 'gallerie/art2.jpg',
+                        msrc: 'gallerie/art2small.jpg',
+                        w: 1920,
+                        h: 1315
+            },
+                    {
+                        src: 'gallerie/art3.jpg',
+                        msrc: 'gallerie/art3small.jpg',
+                        w: 1920,
+                        h: 2891
+            },
+                    {
+                        src: 'gallerie/art4.jpg',
+                        msrc: 'gallerie/art4small.jpg',
+                        w: 1920,
+                        h: 876
+            },
+                    {
+                        src: 'gallerie/art5.jpg',
+                        msrc: 'gallerie/art5small.jpg',
+                        w: 1920,
+                        h: 2891
+            },
+                    {
+                        src: 'gallerie/art6.jpg',
+                        msrc: 'gallerie/art6small.jpg',
+                        w: 1080,
+                        h: 698
+            },
+                    {
+                        src: 'gallerie/art7.jpg',
+                        msrc: 'gallerie/art7small.jpg',
+                        w: 1920,
+                        h: 739
+            },
+                    {
+                        src: 'gallerie/art8.jpg',
+                        msrc: 'gallerie/art8small.jpg',
+                        w: 637,
+                        h: 960
+            },
+                    {
+                        src: 'gallerie/art9.jpg',
+                        msrc: 'gallerie/art9small.jpg',
+                        w: 1920,
+                        h: 1552
+            }, {
+                        src: 'gallerie/art10.jpg',
+                        msrc: 'gallerie/art10small.jpg',
+                        w: 1080,
+                        h: 1073
+            }, {
+                        src: 'gallerie/art11.jpg',
+                        msrc: 'gallerie/art11small.jpg',
+                        w: 1920,
+                        h: 1275
+            }
+        ];
+
+                // Initializes and opens PhotoSwipe
+                var openGalleryAt = function (index) {
+                    var options = {
+                        index: index
+                    };
+                    var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+                    gallery.init();
+                }
+                $('.image-galerie img').click(function (e) {
+                    openGalleryAt($(this).attr("data-index"));
+                });
+            </script>
 </body>
+
 </html>
