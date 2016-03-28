@@ -1,54 +1,29 @@
 @font-face {
     font-family: 'titre4';
-    src: url('fonts/BonvenoCF-Light-webfont.eot');
-    src: url('fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/BonvenoCF-Light-webfont.woff') format('woff'), url('fonts/BonvenoCF-Light-webfont.ttf') format('truetype'), url('fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    src: url('../fonts/BonvenoCF-Light-webfont.eot');
+    src: url('../fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/BonvenoCF-Light-webfont.woff') format('woff'), url('../fonts/BonvenoCF-Light-webfont.ttf') format('truetype'), url('../fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'titre3';
-    src: url('fonts/AlexBrush-Regular.ttf')format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'titre';
-    src: url('fonts/LearningCurve_OT-webfont.eot');
-    src: url('fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LearningCurve_OT-webfont.woff') format('woff'), url('fonts/LearningCurve_OT-webfont.ttf') format('truetype'), url('fonts/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+    src: url('../fonts/LearningCurve_OT-webfont.eot');
+    src: url('../fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/LearningCurve_OT-webfont.woff') format('woff'), url('../fonts/LearningCurve_OT-webfont.ttf') format('truetype'), url('../fonts/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'texte';
-    src: url('fonts/Aaargh-webfont.eot');
-    src: url('fonts/Aaargh-webfont.eot?#iefix') format('fonts/embedded-opentype'), url('fonts/Aaargh-webfont.woff') format('woff'), url('fonts/Aaargh-webfont.ttf') format('truetype'), url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    src: url('../fonts/Aaargh-webfont.eot');
+    src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Aaargh-webfont.woff') format('woff'), url('../fonts/Aaargh-webfont.ttf') format('truetype'), url('../fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'titre2';
-    src: url('fonts/Aaargh-webfont.eot');
-    src: url('fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Aaargh-webfont.woff') format('woff'), url('fonts/Aaargh-webfont.ttf') format('truetype'), url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'windsongregular';
-    src: url('fonts/Windsong-webfont.eot');
-    src: url('fonts/Windsong-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Windsong-webfont.woff') format('woff'), url('fonts/Windsong-webfont.ttf') format('truetype'), url('fonts/Windsong-webfont.svg#windsongregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .parent {
     display: flex;
     height: 100vh;
-    background-image: url(DSC_0241.jpg);
+    background-image: url(../img/accueil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -110,7 +85,7 @@ h2 {
 }
 
 .presentation {
-    font-family: 'titre2';
+    font-family: 'texte';
     font-size: 1.6em;
     color: #601848;
     text-align: center;
@@ -124,7 +99,7 @@ h2 {
 
 .textejustifie {
     text-align: justify;
-    font-family: 'titre2';
+    font-family: 'texte';
 }
 
 .space {
@@ -148,7 +123,7 @@ h2 {
 }
 
 .space3 {
-    background-image: url(aigle.jpg);
+    background-image: url(../img/aigle.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 20px;
@@ -232,15 +207,6 @@ h2 {
     border-radius: .5em;
     padding: .5em 1em .5em 1em;
 }
-
-.fond2 {
-    background-image: url(10321633_10204005410568988_4935854477958451045_o.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .travail {
     font-family: 'titre4';
     font-size: 3em;
